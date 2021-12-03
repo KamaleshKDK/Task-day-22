@@ -16,7 +16,7 @@
         board.style.display = "flex";
         board.style.flexDirection = "row";
         board.style.flexWrap = "wrap";
-        board.style.backgroundColor = "lightgray";
+        board.style.backgroundImage = "linear-gradient(to left,#4568dc ,#b06ab3)";
 
         fetch("https://restcountries.com/v3.1/all")
 
@@ -50,6 +50,7 @@
                     cName.style.width = "200px";
                     cName.style.height = "50px";
                     cName.style.textAlign = "center";
+                    cName.style.backgroundImage = "linear-gradient(to left,#36d1dc , #5b86e5)";
                     cName.style.fontSize = "20px";
                     cName.style.padding = "15px 0px 0px 0px";
                     cName.style.fontFamily = " sans-serif";
@@ -62,6 +63,7 @@
                     Csign.style.height = "50px";
                     Csign.style.textAlign = "center";
                     Csign.style.fontFamily = " sans-serif";
+                    Csign.style.backgroundImage = "linear-gradient(to left,#36d1dc , #5b86e5)";
                     Csign.style.padding = "0px 0px 0px 0px";
                     Csign.innerText = element.car.signs;
 
